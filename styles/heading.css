@@ -1,0 +1,61 @@
+
+.blossm_primary_color {
+    background-color: #034638;
+}
+
+.blossm_secondary_color {
+    background-color: #079365;
+}
+.header-background-gradient {
+    background: rgb(248,249,250);
+    background: linear-gradient(0deg, rgba(248,249,250,1) 0%, rgba(7,147,101,1) 5%);
+}
+.transition-background {
+    /*background: rgb(248,249,250);*/
+    background: linear-gradient(0deg, rgba(248,249,250,1) 0%, rgba(7,147,101,1) 100%);
+}
+
+@media (min-width: 768px) {
+    .header-background-plant {
+        background-image: url("public/img/background/ponthos-on-side.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .header-text-color {
+        color: #343a40;
+    }
+    .header-divider-color {
+        background-color: #343a40;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .header-text-color {
+        color: #ffffff;
+    }
+    .header-divider-color {
+        background-color: #ffffff;
+    }
+}
+
+
+
+.masthead-avatar-iphone {
+    width: 20rem;
+}
+
+.masthead {
+    padding-top: calc(6rem + 50px);
+    padding-bottom:6rem
+}
+
+/*Nav bar*/
+.navbar-brand {
+    padding-top: 0rem;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        height: 4rem;
+    }
+}

@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #079365;
   text-decoration: none;
 }
 
@@ -112,5 +112,10 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
   }
 }
