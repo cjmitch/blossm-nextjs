@@ -1,0 +1,57 @@
+.card_background_1 {
+    background-image: url("../../public/img/background/side-pots.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_background_2 {
+    background-image: url("../../public/img/background/ficus-left-side-moved.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card_background_3 {
+    background-image: url("../../public/img/background/monstera-background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.how_it_works_background_1 {
+    background-image: url("../../public/img/background/abstract-background-1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.how_it_works_background_2 {
+    background-image: url("../../public/img/background/abstract-background-2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.how_it_works_background_3 {
+    background-image: url("../../public/img/background/abstract-background-3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.how_it_works_background_1 hr {
+    width: 15%;
+    height: 5px;
+    border: none;
+    border-radius: 1.5rem;
+    opacity: 100;
+    background-color: #343a40;
+    margin-bottom: 30px;
+}
+
+
+
+/*.divider_custom .divider_custom_line:first-child {*/
+/*    margin-right: 1rem;*/
+/*}*/
+
+/*.divider_custom .divider_custom_line {*/
+/*    margin-left: 1rem;*/
+/*}*/
+
+/*.divider_custom .divider_custom_icon {*/
+/*    color: #2c3e50!important;*/
+/*    font-size: 2rem;*/
+/*}*/

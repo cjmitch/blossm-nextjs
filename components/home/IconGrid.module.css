@@ -1,0 +1,15 @@
+.features_icons {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.features_icons .features_icons_item {
+    max-width: 20rem;
+}
+.features_icons .features_icons_item .features_icons_icon {
+    height: 7rem;
+    color: #1abc9c!important;
+}
+.features_icons .features_icons_item .features_icons_icon i {
+    font-size: 4.5rem;
+    color: #1abc9c!important;
+}

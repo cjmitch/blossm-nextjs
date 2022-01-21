@@ -1,7 +1,4 @@
 
-.text-mid-size {
-    font-size: 25px;
-}
 
 .how-it-works-background-color {
     background-color: #959da5;
@@ -65,11 +62,7 @@
 .features-icons .features-icons-item .features-icons-icon i {
     font-size: 4.5rem;
 }
-@media (max-width: 768px) {
-    .hidden-mobile {
-        display: none;
-    }
-}
+
 @media (min-width: 768px) {
     .hidden-web {
         display: none;
