@@ -14,16 +14,15 @@ const Footer = props => (
                     </div>
                     <div className="col-sm mb-5 mb-lg-0">
                         <h4 className="mb-4">FOLLOW US</h4>
-                        <a className="btn btn-outline-light btn-social mx-1"
+                        <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
                            href="https://facebook.com/{{ site.facebook_username }}">
                             <FontAwesomeIcon icon={['fab', 'facebook-f']} width={25} height={25}/>
-                            {/*<i className="fab fa-fw fa-facebook-f"/>*/}
                         </a>
-                        <a className="btn btn-outline-light btn-social mx-1"
+                        <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
                            href="https://www.instagram.com/{{ site.instagram_username }}">
                             <FontAwesomeIcon icon={['fab', 'instagram']} width={25} height={25}/>
                         </a>
-                        <a className="btn btn-outline-light btn-social mx-1"
+                        <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
                            href="https://www.tiktok.com/@{{ site.tiktok_username }}">
                             <FontAwesomeIcon icon={['fab', 'twitter']} width={25} height={25}/>
                         </a>

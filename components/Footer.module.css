@@ -7,3 +7,13 @@
 .copyright {
     background-color:#1a252f
 }
+
+.app_connect {
+    display: inline-flex;
+    height:3rem;
+    width:3rem;
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+    border-radius:100%;
+}

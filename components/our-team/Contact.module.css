@@ -1,0 +1,18 @@
+.icon_contact {
+    display:flex;
+    height:5rem;
+    width:5rem;
+    align-items:center;
+    justify-content:center;
+    font-size:2rem;
+    background-color:#1abc9c;
+    color:#fff;
+    border-radius:100%;
+}
+
+.page-section a:hover,
+.page-section a:active,
+.page-section a.active {
+    color: #079365;
+    text-underline: #079365;
+}

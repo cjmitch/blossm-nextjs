@@ -8,23 +8,24 @@ import HowItWorks from "../components/home/HowItWorks";
 import IconGrid from "../components/home/IconGrid";
 import OurMission from "../components/home/OurMission";
 import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 export default function HomePage() {
 
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <title>{process.env.NEXT_PUBLIC_HOME_PAGE_TITLE}</title>
                 <meta name="description" content={process.env.NEXT_PUBLIC_HOME_PAGE_DESC}/>
                 <link rel="icon" href="/img/ios_app_icon.png"/>
             </Head>
 
-            <MainNavigation/>
+            {/*<MainNavigation/>*/}
             <HomePageHeader/>
             <IconGrid/>
             <HowItWorks/>
             <OurMission/>
-            <Footer/>
+            {/*<Footer/>*/}
 
         </div>
     )

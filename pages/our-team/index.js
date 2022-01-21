@@ -1,12 +1,8 @@
 import MainNavigation from "../../components/navigation/main-navigation";
-import styles from "../../styles/Home.module.css";
 import Head from "next/head";
-import HomePageHeader from "../../components/home/header";
-import IconGrid from "../../components/home/IconGrid";
-import HowItWorks from "../../components/home/HowItWorks";
-import OurMission from "../../components/home/OurMission";
 import Footer from "../../components/Footer";
 import OurTeamHeader from "../../components/our-team/OurTeamHeader";
+import Contact from "../../components/our-team/Contact";
 
 export default function OurTeam() {
     return (
@@ -19,6 +15,8 @@ export default function OurTeam() {
 
             <MainNavigation/>
             <OurTeamHeader/>
+            <Contact/>
+            <Footer/>
 
         </div>
     )

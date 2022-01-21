@@ -100,3 +100,9 @@ a {
     font-size:3rem;line-height:2.5rem
   }
 }
+
+.page-section a:hover,
+.page-section a:active,
+.page-section a.active {
+  color: #079365;
+}
