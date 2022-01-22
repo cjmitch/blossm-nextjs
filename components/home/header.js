@@ -1,14 +1,15 @@
 import styles from "./Header.module.css";
-
 import Image from "next/image";
+import homeViewApp from '../../public/img/ios-screenshots/ios-home-high-res.webp';
+import iosAppIcon from '../../public/img/ios_app_icon.png';
 
 
 const Header = props => (
         <header className={`${styles.header_background_plant}`}>
             <div className={`container d-flex my-auto align-items-center flex-row my-lg-5`}>
                 <div className={`flex-column hidden-mobile`}>
-                    <Image src="/img/ios-screenshots/ios-home-high-res.webp"
-                           width={410} height={887} priority={true} alt=""/>
+                    <Image src={homeViewApp}
+                           width={410} height={887} priority alt="ios-home-view"/>
                 </div>
                 <div className={`${styles.header_app_title} container d-flex align-items-center flex-column my-lg-5`}>
 
@@ -19,7 +20,8 @@ const Header = props => (
                     <h1 className={`pt-3 ${styles.mastheadHeading}`}>{process.env.NEXT_PUBLIC_APP_TITLE}</h1>
 
                     <div className="divider_custom">
-                        <div className="blossm_dark_color_text divider_custom_line"/>
+                        <div className="hidden-mobile divider_custom_line"/>
+                        <div className="hidden-web bg-white divider_custom_line"/>
                     </div>
 
                     <h1 className={styles.masthead_subheading}>{process.env.NEXT_PUBLIC_APP_DESCRIPTION}</h1>

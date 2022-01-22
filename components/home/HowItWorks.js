@@ -19,7 +19,8 @@ const HowItWorks = props => (
             <div className={`container my-5 shadow-lg ${styles.card_background_1}`} style={{borderRadius: "1.25rem"}}>
                 <div className="row ml-lg-5 gx-4 gx-lg-5 align-items-center flex-row">
                     <div className="col-sm-4">
-                        <Image src="/img/ios-screenshots/ios-map-high-res.webp" priority={true} width={932} height={2016}/>
+                        <Image src="/img/ios-screenshots/ios-map-high-res.webp" priority={true} width={932}
+                               height={2016} alt="ios-map-view"/>
                     </div>
                     <div className="col-sm-4 flex-column" style={{borderRadius: "1.25rem"}}>
                         <h2 className="display-4 blossm_dark_color_text lh-1 mb-4">{process.env.NEXT_PUBLIC_browse_plants}</h2>
@@ -39,7 +40,8 @@ const HowItWorks = props => (
                         <p className="lead fw-normal text-muted mb-5 mb-lg-0">{process.env.NEXT_PUBLIC_buy_sell_swap_description} </p>
                     </div>
                     <div className="col-sm-4">
-                        <Image src="/img/ios-screenshots/ios-item-final.webp" priority={true} width={932} height={2016}/>
+                        <Image src="/img/ios-screenshots/ios-item-final.webp" priority={true} width={932}
+                               height={2016} alt="ios-item-view"/>
                     </div>
 
                 </div>
@@ -50,7 +52,8 @@ const HowItWorks = props => (
                  style={{borderRadius: "1.25rem"}}>
                 <div className="row ml-lg-5 gx-4 gx-lg-5 align-items-center">
                     <div className="col-sm-4">
-                        <Image src="/img/ios-screenshots/ios-community-high-res.webp" priority={true} width={932} height={2016}/>
+                        <Image src="/img/ios-screenshots/ios-community-high-res.webp" priority={true} width={932}
+                               height={2016} alt="ios-community-view"/>
                     </div>
                     <div className="col-sm-4">
                         <h2 className="display-4 blossm_dark_color_text lh-1 mb-4">{process.env.NEXT_PUBLIC_socialize}</h2>

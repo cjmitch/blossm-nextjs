@@ -59,3 +59,11 @@
         height: 4rem;
     }
 }
+
+.custom_nav_links {
+    color: white!important;
+}
+
+.custom_nav_links:hover {
+    color: #1abc9c!important;
+}
