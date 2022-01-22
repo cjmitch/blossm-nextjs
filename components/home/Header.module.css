@@ -5,7 +5,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 8rem;
-        padding-bottom: 2rem;
+        padding-bottom: 4rem;
     }
 }
 
@@ -17,19 +17,8 @@
     }
 }
 
-.header_divider_color {
-    background-color: #343a40;
-}
-
-
-@media (min-width: 0px) and (max-width: 768px) {
-    .header_text_color {
-        color: #ffffff;
-    }
-
-    .header_divider_color {
-        background-color: #ffffff;
-    }
+.header_app_title {
+    padding-right: 200px;
 }
 
 .mastheadHeading {

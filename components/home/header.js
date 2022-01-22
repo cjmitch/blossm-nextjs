@@ -10,9 +10,9 @@ const Header = props => (
                     <Image src="/img/ios-screenshots/ios-home-high-res.webp"
                            width={410} height={887} priority={true} alt=""/>
                 </div>
-                <div className={`container d-flex align-items-center flex-column my-lg-5`}>
+                <div className={`${styles.header_app_title} container d-flex align-items-center flex-column my-lg-5`}>
 
-                    <div className="col-sm pt-2">
+                    <div className="pt-2">
                             <img className="shadow-lg" style={{borderRadius: '1.75rem'}} width="120" height="120"
                                    src="/img/ios_app_icon.png" alt="Blossm"/>
                     </div>
