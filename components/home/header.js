@@ -1,4 +1,4 @@
-import styles from "./Header.module.css";
+import styles from "./header.module.css";
 import Image from "next/image";
 import homeViewApp from '../../public/img/ios-screenshots/ios-home-high-res.webp';
 import iosAppIcon from '../../public/img/ios_app_icon.png';

@@ -1,6 +1,6 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faSeedling} from '@fortawesome/free-solid-svg-icons'
-import styles from './OurMission.module.css';
+import styles from './our-mission.module.css';
 
 const OurMission = props => (
 

@@ -2,7 +2,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faSearch, faDollarSign, faUserFriends} from '@fortawesome/free-solid-svg-icons'
 import React from "react";
-import styles from "./IconGrid.module.css";
+import styles from "./icon-grid.module.css";
 
 const IconGrid = props => (
     <section className={`${styles.features_icons} bg-light text-center hidden-web`}>

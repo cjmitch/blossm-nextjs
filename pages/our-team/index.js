@@ -1,7 +1,7 @@
 
-import OurTeamHeader from "../../components/our-team/OurTeamHeader";
-import Contact from "../../components/our-team/Contact";
-import BlossmHead from "../../components/BlossmHead";
+import OurTeamHeader from "../../components/our-team/our-team-header";
+import Contact from "../../components/our-team/contact";
+import BlossmHead from "../../components/blossm-head";
 
 export default function OurTeam() {
     return (

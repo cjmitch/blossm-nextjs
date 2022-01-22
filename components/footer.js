@@ -1,4 +1,4 @@
-import styles from './Footer.module.css'
+import styles from './footer.module.css'
 import {faHeart} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Link from 'next/link'

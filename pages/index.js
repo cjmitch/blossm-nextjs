@@ -1,9 +1,9 @@
 
 import HomePageHeader from "../components/home/header";
-import HowItWorks from "../components/home/HowItWorks";
-import IconGrid from "../components/home/IconGrid";
-import OurMission from "../components/home/OurMission";
-import BlossmHead from "../components/BlossmHead"
+import HowItWorks from "../components/home/how-it-works";
+import IconGrid from "../components/home/icon-grid";
+import OurMission from "../components/home/our-mission";
+import BlossmHead from "../components/blossm-head"
 
 export default function HomePage() {
 

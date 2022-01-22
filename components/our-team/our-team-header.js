@@ -1,5 +1,5 @@
 
-import styles from './OurTeamHeader.module.css';
+import styles from './our-team-header.module.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSeedling} from "@fortawesome/free-solid-svg-icons";
 

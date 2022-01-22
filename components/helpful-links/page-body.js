@@ -1,4 +1,4 @@
-import markdownStyles from './PageBody.module.css';
+import markdownStyles from './page-body.module.css';
 
 
 export default function PostBody({ content }) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import MainNavigation from "./navigation/main-navigation";
-import Footer from "./Footer";
+import Footer from "./footer";
 
 const Layout = props => (
     <div className="Layout">

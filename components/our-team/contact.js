@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faSeedling} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
-import styles from './Contact.module.css';
+import styles from './contact.module.css';
 
 const Contact = props => (
     <section className="page-section" id="contact">
