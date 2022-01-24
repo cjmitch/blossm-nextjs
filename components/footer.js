@@ -2,6 +2,7 @@ import styles from './footer.module.css'
 import {faHeart} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Link from 'next/link'
+import {CITY, FACEBOOK_USERNAME, INSTAGRAM_USERNAME, TIKTOK_USERNAME, TOWN} from "../lib/constants";
 
 export default function Footer(props) {
     return (
@@ -12,22 +13,22 @@ export default function Footer(props) {
                         <div className="col-sm  mb-5 mb-lg-0">
                             <h4 className="mb-4">LOCATION</h4>
                             <p className="pre-wrap mb-0"
-                               style={{textAlign: "center"}}>{process.env.NEXT_PUBLIC_town}</p>
+                               style={{textAlign: "center"}}>{TOWN}</p>
                             <p className="pre-wrap  mb-0"
-                               style={{textAlign: "center"}}>                 {process.env.NEXT_PUBLIC_city}</p>
+                               style={{textAlign: "center"}}>                 {CITY}</p>
                         </div>
                         <div className="col-sm mb-5 mb-lg-0">
                             <h4 className="mb-4">FOLLOW US</h4>
                             <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
-                               href={`https://www.facebook.com/${process.env.NEXT_PUBLIC_facebook_username}`}>
+                               href={`https://www.facebook.com/${FACEBOOK_USERNAME}`}>
                                 <FontAwesomeIcon icon={['fab', 'facebook-f']} width={25} height={25}/>
                             </a>
                             <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
-                               href={`https://www.instagram.com/${process.env.NEXT_PUBLIC_instagram_username}`}>
+                               href={`https://www.instagram.com/${INSTAGRAM_USERNAME}`}>
                                 <FontAwesomeIcon icon={['fab', 'instagram']} width={25} height={25}/>
                             </a>
                             <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
-                               href={`https://www.tiktok.com/@${process.env.NEXT_PUBLIC_tiktok_username}`}>
+                               href={`https://www.tiktok.com/@${TIKTOK_USERNAME}`}>
                                 <FontAwesomeIcon icon={['fab', 'twitter']} width={25} height={25}/>
                             </a>
                         </div>

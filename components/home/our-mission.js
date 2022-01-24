@@ -1,6 +1,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faSeedling} from '@fortawesome/free-solid-svg-icons'
 import styles from './our-mission.module.css';
+import {MISSION} from "../../lib/constants";
 
 const OurMission = props => (
 
@@ -18,7 +19,7 @@ const OurMission = props => (
             </div>
             <div className="text-center">
                 <div className="p">
-                    <p className={`pre-wrap lead ${styles.text_mid_size}`}>{process.env.NEXT_PUBLIC_mission}</p>
+                    <p className={`pre-wrap lead ${styles.text_mid_size}`}>{MISSION}</p>
                 </div>
             </div>
         </div>

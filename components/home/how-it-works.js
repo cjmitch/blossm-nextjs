@@ -5,6 +5,13 @@ import Image from "next/image";
 import iosMap from "../../public/img/ios-screenshots/ios-map-high-res.webp";
 import iosItem from "../../public/img/ios-screenshots/ios-item-final.webp";
 import iosCommunity from "../../public/img/ios-screenshots/ios-community-high-res.webp";
+import {
+    BROWSE_PLANTS,
+    BROWSE_PLANTS_DESCRIPTION,
+    BUY_SELL_SWAP,
+    BUY_SELL_SWAP_DESCRIPTION, SOCIALIZE,
+    SOCIALIZE_DESCRIPTION
+} from "../../lib/constants";
 
 
 
@@ -27,8 +34,8 @@ const HowItWorks = props => (
                         <Image src={iosMap} alt="ios-map-view"/>
                     </div>
                     <div className="col-sm-4 flex-column" style={{borderRadius: "1.25rem"}}>
-                        <h2 className="display-4 blossm_dark_color_text lh-1 mb-4">{process.env.NEXT_PUBLIC_browse_plants}</h2>
-                        <p className="lead fw-normal text-muted mb-5 mb-lg-0"> {process.env.NEXT_PUBLIC_browse_plants_description}</p>
+                        <h2 className="display-4 blossm_dark_color_text lh-1 mb-4">{BROWSE_PLANTS}</h2>
+                        <p className="lead fw-normal text-muted mb-5 mb-lg-0"> {BROWSE_PLANTS_DESCRIPTION}</p>
                     </div>
                 </div>
             </div>
@@ -40,8 +47,8 @@ const HowItWorks = props => (
                     <div className="col-sm-4">
                     </div>
                     <div className="col-sm-4">
-                        <h2 className="display-4 blossm_dark_color_text lh-1 mb-4">{process.env.NEXT_PUBLIC_buy_sell_swap}</h2>
-                        <p className="lead fw-normal text-muted mb-5 mb-lg-0">{process.env.NEXT_PUBLIC_buy_sell_swap_description} </p>
+                        <h2 className="display-4 blossm_dark_color_text lh-1 mb-4">{BUY_SELL_SWAP}</h2>
+                        <p className="lead fw-normal text-muted mb-5 mb-lg-0">{BUY_SELL_SWAP_DESCRIPTION} </p>
                     </div>
                     <div className="col-sm-4">
                         <Image src={iosItem} priority={true} alt="ios-item-view"/>
@@ -58,8 +65,8 @@ const HowItWorks = props => (
                         <Image src={iosCommunity} priority={true} alt="ios-community-view"/>
                     </div>
                     <div className="col-sm-4">
-                        <h2 className="display-4 blossm_dark_color_text lh-1 mb-4">{process.env.NEXT_PUBLIC_socialize}</h2>
-                        <p className="lead fw-normal text-muted mb-5 mb-lg-0">{process.env.NEXT_PUBLIC_socialize_description}</p>
+                        <h2 className="display-4 blossm_dark_color_text lh-1 mb-4">{SOCIALIZE}</h2>
+                        <p className="lead fw-normal text-muted mb-5 mb-lg-0">{SOCIALIZE_DESCRIPTION}</p>
                     </div>
                 </div>
             </div>

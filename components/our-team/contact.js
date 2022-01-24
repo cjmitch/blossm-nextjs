@@ -2,6 +2,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope, faSeedling} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import styles from './contact.module.css';
+import {EMAIL_ADDRESS} from "../../lib/constants";
 
 const Contact = props => (
     <section className="page-section" id="contact">
@@ -23,7 +24,7 @@ const Contact = props => (
                             <FontAwesomeIcon icon={faEnvelope} width={30} height={30}/>
                         </div>
                         <div className="text-muted">Email</div>
-                        <a className="lead fw-bold" href="mailto:name@example.com">{process.env.NEXT_PUBLIC_email_address}</a>
+                        <a className="lead fw-bold" href="mailto:name@example.com">{EMAIL_ADDRESS}</a>
                     </div>
                 </div>
             </div>

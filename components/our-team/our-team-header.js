@@ -1,6 +1,16 @@
 import styles from './our-team-header.module.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSeedling} from "@fortawesome/free-solid-svg-icons";
+import {
+    ARI_FULL_NAME,
+    ARI_HEADSHOT,
+    BRIAN_FULL_NAME,
+    BRIAN_HEADSHOT,
+    CALVIN_FULL_NAME,
+    CALVIN_HEADSHOT,
+    NICK_FULL_NAME,
+    NICK_HEADSHOT, TEAM_DESCRIPTION
+} from "../../lib/constants";
 
 const OurTeamHeader = props => (
     <header className={`${styles.masthead} blossm_secondary_color text-center text-white rounded-bottom`}>
@@ -18,36 +28,36 @@ const OurTeamHeader = props => (
             <div className="row py-2">
                 <div className="col-lg-3">
                     <div className={styles.team_member}>
-                        <img className="mx-auto rounded-circle" src={process.env.NEXT_PUBLIC_nick_headshot}
+                        <img className="mx-auto rounded-circle" src={NICK_HEADSHOT}
                              alt="nick-headshot"/>
-                        <h4>{process.env.NEXT_PUBLIC_nick_full_name}</h4>
+                        <h4>{NICK_FULL_NAME}</h4>
                     </div>
                 </div>
                 <div className="col-lg-3">
                     <div className={styles.team_member}>
-                        <img className="mx-auto rounded-circle" src={process.env.NEXT_PUBLIC_brian_headshot}
+                        <img className="mx-auto rounded-circle" src={BRIAN_HEADSHOT}
                              alt="brian-headshot"/>
-                        <h4>{process.env.NEXT_PUBLIC_brian_full_name}</h4>
+                        <h4>{BRIAN_FULL_NAME}</h4>
                     </div>
                 </div>
                 <div className="col-lg-3">
                     <div className={styles.team_member}>
-                        <img className="mx-auto rounded-circle" src={process.env.NEXT_PUBLIC_calvin_headshot}
+                        <img className="mx-auto rounded-circle" src={CALVIN_HEADSHOT}
                              alt="calvin-headshot"/>
-                        <h4>{process.env.NEXT_PUBLIC_calvin_full_name}</h4>
+                        <h4>{CALVIN_FULL_NAME}</h4>
                     </div>
                 </div>
                 <div className="col-lg-3">
                     <div className={styles.team_member}>
-                        <img className="mx-auto rounded-circle" src={process.env.NEXT_PUBLIC_ari_headshot}
+                        <img className="mx-auto rounded-circle" src={ARI_HEADSHOT}
                              alt="calvin-headshot"/>
-                        <h4>{process.env.NEXT_PUBLIC_ari_full_name}</h4>
+                        <h4>{ARI_FULL_NAME}</h4>
                     </div>
                 </div>
             </div>
             <div className="row">
                 <div className="col-lg mx-auto text-center">
-                    <p className={`${styles.text_small_size} text-light`}>{process.env.NEXT_PUBLIC_team_description}</p>
+                    <p className={`${styles.text_small_size} text-light`}>{TEAM_DESCRIPTION}</p>
                 </div>
             </div>
         </div>

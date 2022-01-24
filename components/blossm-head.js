@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import {APP_AUTHOR, APP_ICON, APP_KEYWORDS} from "../lib/constants";
 
 export default function BlossmHead({
     pageTitle,
@@ -8,9 +9,9 @@ export default function BlossmHead({
         <Head>
             <title>{pageTitle}</title>
             <meta name="description" content={pageDescription}/>
-            <meta name="author" content={process.env.NEXT_PUBLIC_app_author}/>
-            <meta name="keywords" content={process.env.NEXT_PUBLIC_app_keywords}/>
-            <link rel="icon" href={process.env.NEXT_PUBLIC_app_icon}/>
+            <meta name="author" content={APP_AUTHOR}/>
+            <meta name="keywords" content={APP_KEYWORDS}/>
+            <link rel="icon" href={APP_ICON}/>
         </Head>
     )
 }

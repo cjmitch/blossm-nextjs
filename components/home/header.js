@@ -1,8 +1,7 @@
 import styles from "./header.module.css";
 import Image from "next/image";
 import homeViewApp from '../../public/img/ios-screenshots/ios-home-high-res.webp';
-import iosAppIcon from '../../public/img/ios_app_icon.png';
-
+import {APP_DESCRIPTION, APP_TITLE, APPSTORE_LINK, PLAYSTORE_LINK} from "../../lib/constants";
 
 const Header = props => (
         <header className={`${styles.header_background_plant}`}>
@@ -17,21 +16,21 @@ const Header = props => (
                             <img className="shadow-lg" style={{borderRadius: '1.75rem'}} width="120" height="120"
                                    src="/img/ios_app_icon.png" alt="Blossm"/>
                     </div>
-                    <h1 className={`pt-3 ${styles.mastheadHeading}`}>{process.env.NEXT_PUBLIC_APP_TITLE}</h1>
+                    <h1 className={`pt-3 ${styles.mastheadHeading}`}>{APP_TITLE}</h1>
 
                     <div className="divider_custom">
                         <div className="hidden-mobile divider_custom_line"/>
                         <div className="hidden-web bg-white divider_custom_line"/>
                     </div>
 
-                    <h1 className={styles.masthead_subheading}>{process.env.NEXT_PUBLIC_APP_DESCRIPTION}</h1>
+                    <h1 className={styles.masthead_subheading}>{APP_DESCRIPTION}</h1>
                     <div className="row my-3 pl-2 align-items-center ">
-                        <a className="col pr-2" href={process.env.NEXT_PUBLIC_appstore_link}
+                        <a className="col pr-2" href={APPSTORE_LINK}
                            aria-label="Download on the App Store.">
                             <img className="appStore shadow-lg"
                                    src="/img/appstore.png" width="190" height="64" alt="iOS"/>
                         </a>
-                        <a className="col px-lg-2 my-1 " href={process.env.NEXT_PUBLIC_playstore_link}
+                        <a className="col px-lg-2 my-1 " href={PLAYSTORE_LINK}
                            aria-label="Get it on Google Play.">
                             <img className="playStore shadow-lg"
                                    src="/img/playstore.png" width="220" height="64"
