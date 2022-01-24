@@ -6,10 +6,10 @@ import iosAppIcon from '../../public/img/ios_app_icon.png';
 
 const Header = props => (
         <header className={`${styles.header_background_plant}`}>
-            <div className={`container d-flex my-auto align-items-center flex-row my-lg-5`}>
+            <div className={`container d-flex my-auto align-items-center flex-row my-lg-1`}>
                 <div className={`flex-column hidden-mobile`}>
                     <Image src={homeViewApp}
-                           width={410} height={887} priority alt="ios-home-view"/>
+                           width={621} height={1344} priority layout={"intrinsic"} alt="ios-home-view"/>
                 </div>
                 <div className={`${styles.header_app_title} container d-flex align-items-center flex-column my-lg-5`}>
 

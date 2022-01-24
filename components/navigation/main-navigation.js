@@ -10,11 +10,11 @@ import styles from "./main-navigation.module.css";
 const MainNavigation = props => (
 
     <Navbar className={` blossm_primary_color shadow-lg`} collapseOnSelect expand="lg" fixed={"top"}>
-        <Container className={`pe-xl-0`}>
+        <Container className={`pe-xl-z py-1`}>
         <Navbar.Brand className="py-0">
             <Link href="/">
                 <a className="navbar-brand js-scroll-trigger">
-                    <img id="brandImage" src="/img/logo.png" width={132} height={29} alt=""/>
+                    <img id="brandImage" src="/img/logo.png" width={132} height={29} alt="blossm-logo"/>
                 </a>
             </Link>
         </Navbar.Brand>

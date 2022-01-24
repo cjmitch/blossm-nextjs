@@ -19,11 +19,11 @@ export default function Footer(props) {
                         <div className="col-sm mb-5 mb-lg-0">
                             <h4 className="mb-4">FOLLOW US</h4>
                             <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
-                               href={`https://www.tiktok.com/@${process.env.NEXT_PUBLIC_facebook_username}`}>
+                               href={`https://www.facebook.com/${process.env.NEXT_PUBLIC_facebook_username}`}>
                                 <FontAwesomeIcon icon={['fab', 'facebook-f']} width={25} height={25}/>
                             </a>
                             <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
-                               href={`https://www.tiktok.com/@${process.env.NEXT_PUBLIC_instagram_username}`}>
+                               href={`https://www.instagram.com/${process.env.NEXT_PUBLIC_instagram_username}`}>
                                 <FontAwesomeIcon icon={['fab', 'instagram']} width={25} height={25}/>
                             </a>
                             <a className={`${styles.app_connect} btn btn-outline-light btn-social mx-1`}
