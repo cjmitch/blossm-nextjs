@@ -1,9 +1,9 @@
 import ErrorPage from 'next/error';
 import {useRouter} from "next/router";
-import PageBody from "../../components/helpful-links/page-body";
-import { getPostBySlug, getAllPosts } from '../../lib/link-slug-scripts'
-import markdownToHtml from "../../lib/markdownToHtml";
-import BlossmHead from "../../components/blossm-head";
+import PageBody from "../components/helpful-links/page-body";
+import { getPostBySlug, getAllPosts } from '../lib/link-slug-scripts'
+import markdownToHtml from "../lib/markdownToHtml";
+import BlossmHead from "../components/blossm-head";
 
 
 export default function LinkPage({page}) {

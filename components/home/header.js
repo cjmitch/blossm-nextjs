@@ -30,7 +30,7 @@ const Header = props => (
                             <img className="appStore shadow-lg"
                                    src="/img/appstore.png" width="190" height="64" alt="iOS"/>
                         </a>
-                        <a className="col px-lg-2 my-1 " href={PLAYSTORE_LINK}
+                        <a className="col my-1" href={PLAYSTORE_LINK}
                            aria-label="Get it on Google Play.">
                             <img className="playStore shadow-lg"
                                    src="/img/playstore.png" width="220" height="64"

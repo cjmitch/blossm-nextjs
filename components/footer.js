@@ -35,11 +35,11 @@ export default function Footer(props) {
                         <div className="col-sm mb-5 mb-lg-0">
                             <h4 className="mb-4">HELPFUL LINKS</h4>
                             <div className={styles.footerLinks}>
-                                <Link href={`/helpful-links/how-to-ship`}>
+                                <Link href={`/how-to-ship`}>
                                     <a>How To Exchange With PayPal</a>
                                 </Link>
                                 <div/>
-                                <Link href={`/helpful-links/how-to-package-plants`}>
+                                <Link href={`/how-to-package-plants`}>
                                     <a>How To Package Plants For Shipping</a>
                                 </Link>
                             </div>
@@ -47,11 +47,11 @@ export default function Footer(props) {
                         <div className="col-sm mb-5 mb-lg-0">
                             <h4 className="mb-4">LEGAL</h4>
                             <div className={styles.footerLinks}>
-                                <Link href={`/helpful-links/privacy-policy`}>
+                                <Link href={`/privacy-policy`}>
                                     <a>Privacy Policy</a>
                                 </Link>
                                 <div/>
-                                <Link href={`/helpful-links/terms-of-service`}>
+                                <Link href={`/terms-of-service`}>
                                     <a>Terms of Service</a>
                                 </Link>
                             </div>
